@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#009688"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textColor="#000000"
+        android:textSize="58dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="58dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/email"
+        android:hint="Nhập Email"
+        android:textSize="22dp"
+        android:textColorHint="#5A5757"
+        android:background="@drawable/editerbackground"
+        android:layout_marginBottom="38dp"
+        android:paddingLeft="28dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tendangnhap"
+        android:hint="Nhập Tên Đăng Nhập"
+        android:textSize="22dp"
+        android:textColorHint="#5A5757"
+        android:background="@drawable/editerbackground"
+        android:layout_marginBottom="38dp"
+        android:paddingLeft="28dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/matkhau"
+        android:hint="Nhập Mật Khẩu"
+        android:textSize="22dp"
+        android:textColorHint="#5A5757"
+        android:background="@drawable/editerbackground"
+        android:layout_marginBottom="38dp"
+        android:paddingLeft="28dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/laimatkhau"
+        android:hint="Nhập Lại Mật Khẩu"
+        android:textSize="22dp"
+        android:textColorHint="#5A5757"
+        android:background="@drawable/editerbackground"
+        android:layout_marginBottom="38dp"
+        android:paddingLeft="28dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:id="@+id/dangky"
+        android:text="Đăng Ký"
+        android:textSize="28dp"
+        android:textColor="#A9B1B0"
+        android:backgroundTint="#000000"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:id="@+id/quayve"
+        android:text="Trở lại đăng nhập"
+        android:textSize="28dp"
+        android:textColor="#A9B1B0"
+        android:backgroundTint="#000000"
+        />
+
+
+</LinearLayout>
